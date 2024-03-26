@@ -1,0 +1,116 @@
+.card {
+	box-shadow: 0 0 5px #333;
+	border-radius: 8px;
+	overflow: hidden;
+	background: #f9f9f9;
+	padding: 10px;
+	width: 290px;
+}
+
+	.card .top {
+		text-align: center;
+	}
+
+	.card p {
+		font-weight: bold;
+		color: #333;
+	}
+
+	.card button {
+		outline: 0;
+		border: 0;
+		color: #fff;
+		border-radius: 4px;
+		cursor: pointer;
+		font-weight: 400;
+		padding: 8px 13px;
+		width: 100%;
+		background: #333;
+	}
+
+	.card .drag-area {
+		height: 150px;
+		border-radius: 8px;
+		border: 2px dashed #333;
+		color: #333;
+		background: #f9f9f9;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+		.card .drag-area .visible {
+			font-size: 18px;
+		}
+
+	.card .select {
+		color: #555;
+		margin-left: 5px;
+		cursor: pointer;
+		transition: 0.4s;
+	}
+
+		.card .select:hover {
+			opacity: 0.6;
+		}
+
+	.card .container {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		max-height: 200px;
+		overflow-y: auto;
+		margin-top: 10px;
+	}
+
+		.card .container .image {
+			width: 86.5px; /*top fit perfectly in the .card 290px*/
+			margin-right: 2px;
+			margin-left: 2px;
+			height: 86.5px; /*top fit perfectly in the .card 290px*/
+			position: relative;
+			margin-bottom: 8px;
+		}
+
+			.card .container .image img {
+				width: 100%;
+				height: 100%;
+				border-radius: 8px;
+			}
+
+			.card .container .image span {
+				position: absolute;
+				top: -2px;
+				right: 9px;
+				font-size: 20px;
+				cursor: pointer;
+			}
+
+	.card input,
+	.card .on-drop,
+	.card .drag-area.dragover .visible {
+		display: none;
+	}
+
+.delete {
+	z-index: 999;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+	.delete:hover {
+		opacity: 0.6;
+	}
+
+@media (min-width: 768px) {
+	.card {
+		width: 633.5px;
+	}
+}

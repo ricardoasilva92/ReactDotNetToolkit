@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactDotNetToolkit.Server", "ReactDotNetToolkit.Server\ReactDotNetToolkit.Server.csproj", "{983A231B-F5C7-4DB6-A055-D1C9E3E5E460}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactdotnettoolkit.client", "reactdotnettoolkit.client\reactdotnettoolkit.client.esproj", "{17A69407-FD10-4BC0-961D-BCD54257FA0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{983A231B-F5C7-4DB6-A055-D1C9E3E5E460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983A231B-F5C7-4DB6-A055-D1C9E3E5E460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983A231B-F5C7-4DB6-A055-D1C9E3E5E460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983A231B-F5C7-4DB6-A055-D1C9E3E5E460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A69407-FD10-4BC0-961D-BCD54257FA0B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D37269D-E56E-4762-9767-AB1A549AFCB3}
+	EndGlobalSection
+EndGlobal
